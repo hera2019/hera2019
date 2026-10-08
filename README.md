@@ -1,38 +1,35 @@
 ## Hera
 
-Computer vision and AI engineer based in Tokyo. I have been building vision systems since 1998 — through three fairly different technology generations — and I still write code every day.
+AI product and engineering lead based in Tokyo, focused on local and on-device AI. I have worked in software engineering since 2001 and I am still hands-on every day: I set the direction, the architecture and the acceptance criteria, work with AI coding agents on the implementation, and own the result.
 
-**HOUJUN Co., Ltd.** (Tokyo) — founder and technical lead. [houjun.dev](https://houjun.dev)
+**Houjun Co., Ltd.** (Tokyo) — Product Engineer / Representative Director · [houjun.dev](https://houjun.dev)
 
 ---
 
-### What I have worked on
+### Open source (2026)
 
-**Medical signal processing** — early work on automated analysis of biological signals, in collaboration with a university hospital. My background is in life sciences and clinical medicine, which is where this started.
+- **[VoxStage](https://github.com/hera2019/VoxStage)** — offline multi-voice text-to-speech workstation for Apple Silicon. A local LLM drafts who says each line, the author reviews it, and every generated line is checked against the script before export to audio, subtitles and editing timelines. AGPL-3.0, with a separate commercial licence. · [website](https://houjun.dev/voxstage/)
+- **[Image MLX Lab](https://github.com/hera2019/image-mlx-lab)** — local image generation and editing on Qwen-Image via Apple MLX; mask-based edits leave every pixel outside the selection unchanged. Code MIT; the default model is for non-commercial use. · [website](https://houjun.dev/iml/)
+- **[MedAdapt Lab](https://github.com/hera2019/MedAdapt-Lab)** — open research: can a small language model learn new research findings through continued training, and what does it cost? Five studies with tests frozen before training. · [write-up](https://houjun.dev/lab/)
+- **[Vision Lab](https://github.com/hera2019/Vision-Lab)** — pedestrian detection and multi-object tracking on CPU: YOLOX and ByteTrack in C++ on ONNX Runtime, in Docker, with reproducible MOT17 benchmarks.
+- **[AI-Lab](https://github.com/hera2019/AI-Lab)** — local-inference studies on one Apple Silicon machine: what ships, what it costs and how it fails.
+- **llama.cpp** — reproducible issue reports on C/C++ audio and media paths: [#27693](https://github.com/ggml-org/llama.cpp/issues/27693), [#27697](https://github.com/ggml-org/llama.cpp/issues/27697), [#28095](https://github.com/ggml-org/llama.cpp/issues/28095).
 
-**Large-scale video infrastructure** — real-time analysis across many concurrent camera streams: detection, tracking, and event extraction under hard latency and reliability constraints. Systems that had to keep running, not just demo well.
+### Shipped apps
 
-**Robot vision and motion control** — perception and control for industrial robots: calibration, pose estimation, and closing the loop between what the camera sees and what the arm does.
+- **[Mind Craft Fish](https://apps.apple.com/jp/app/id6775150167)** — learning app for iPhone, iPad and Mac in four languages, offline-first. · [website](https://houjun.dev/mcf/)
+- **[CherryTempo](https://apps.apple.com/jp/app/cherrytempo/id6755460469)** — reminders and shared tasks for iPhone and Mac.
 
-**Generative AI and on-device inference** — current focus. Quantization, local VLM/LLM serving, and the engineering trade-offs that show up when a model has to run on constrained hardware instead of a datacenter GPU.
+### Earlier work
 
-### What I am interested in now
-
-Getting vision-language and vision-language-action models to run reliably outside the lab — quantization trade-offs, tail latency in closed control loops, and how these systems actually degrade when the sensor data stops being clean.
-
-Most of what I know about that last part came from twenty years of deployed systems rather than from benchmarks.
-
-### Shipped
-
-Two iOS applications, designed and built end to end — from model and backend through to App Store release:
-
-- **Mind Craft Fish**
-- **Cherry Tempo**
+- **1998** — respiratory-sound recognition, my biomedical engineering graduation project, with a university hospital.
+- **2004–2012** — co-founded a software company in Nanjing and led distributed real-time video analytics deployed across four metropolitan programs; wrote the core video components in C++.
+- **2014** — software lead for a four-wheel-drive robot prototype: real-time obstacle analysis, fast avoidance and remote robotic-arm control.
 
 ### Languages
 
-Chinese (native) · Japanese (JLPT N2) · English (working)
+Chinese (native) · Japanese (JLPT N2) · English (technical reading and writing; working meetings)
 
 ---
 
-*Based in Tokyo. Open to conversations about computer vision, robotics perception, and edge inference roles.*
+*Open to applied-AI product and engineering roles.*
